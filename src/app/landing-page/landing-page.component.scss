@@ -1,0 +1,49 @@
+$primary-color: #1e1e1e;
+$secondary-color: #282828;
+$text-color: #ffffff;
+$accent-color: #007acc;
+
+.landing-container {
+  text-align: center;
+  padding: 50px;
+  background-color: $primary-color;
+  color: $text-color;
+}
+
+.header {
+  margin-bottom: 50px;
+
+  h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+  button {
+    background-color: $accent-color;
+    color: $text-color;
+  }
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+
+  .feature {
+    width: 30%;
+    background-color: $secondary-color;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: lighten($text-color, 20%);
+}
